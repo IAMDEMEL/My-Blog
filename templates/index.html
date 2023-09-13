@@ -29,7 +29,7 @@
         </a>
         <p class="post-meta">
           Posted by
-          <a href="#">{{post.author}}</a>
+          <a href="#">{{post.author.name}}</a>
           on {{post.date}}
           {% if current_user.id == 1 %}
             <!-- TODO: Only show delete button if user id is 1 (admin user) -->
